@@ -1,0 +1,97 @@
+INFO - 2023-06-22 06:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-22 16:51:26 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\belajar-gis\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\belajar-gis\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'webgis', 3306, '', 0)
+#1 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\belajar-gis\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\belajar-gis\app\Models\ModelLokasi.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\belajar-gis\app\Controllers\Lokasi.php(241): App\Models\ModelLokasi->getAllData()
+#6 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(934): App\Controllers\Lokasi->frontEnd()
+#7 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#8 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\belajar-gis\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\belajar-gis\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\belajar-gis\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\belajar-gis\app\Models\ModelLokasi.php(19): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\belajar-gis\app\Controllers\Lokasi.php(241): App\Models\ModelLokasi->getAllData()
+#5 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(934): App\Controllers\Lokasi->frontEnd()
+#6 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#7 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\belajar-gis\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-22 16:51:26 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_lokasi`', [], false)
+ 3 APPPATH\Models\ModelLokasi.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Lokasi.php(241): App\Models\ModelLokasi->getAllData()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->frontEnd()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-22 16:52:07 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\belajar-gis\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\belajar-gis\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'webgis', 3306, '', 0)
+#1 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\belajar-gis\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\belajar-gis\app\Models\ModelLokasi.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\belajar-gis\app\Controllers\Lokasi.php(118): App\Models\ModelLokasi->getAllData()
+#6 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(934): App\Controllers\Lokasi->pemetaanLokasi()
+#7 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#8 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\belajar-gis\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\belajar-gis\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\belajar-gis\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\belajar-gis\app\Models\ModelLokasi.php(19): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\belajar-gis\app\Controllers\Lokasi.php(118): App\Models\ModelLokasi->getAllData()
+#5 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(934): App\Controllers\Lokasi->pemetaanLokasi()
+#6 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#7 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\belajar-gis\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-22 16:52:07 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_lokasi`', [], false)
+ 3 APPPATH\Models\ModelLokasi.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Lokasi.php(118): App\Models\ModelLokasi->getAllData()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->pemetaanLokasi()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 16:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 16:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 16:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 16:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 17:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 17:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 17:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 17:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 17:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 17:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 17:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 17:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 17:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 17:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

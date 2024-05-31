@@ -1,0 +1,548 @@
+INFO - 2023-07-11 09:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 09:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 09:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 09:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 11:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 11:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 15:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 15:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 15:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 15:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 15:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 15:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 16:28:05 --> Undefined variable: lokasi
+in APPPATH\Views\lokasi\v_beranda.php on line 50.
+ 1 APPPATH\Views\lokasi\v_beranda.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: lokasi', 'APPPATH\\Views\\lokasi\\v_beranda.php', 50, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lokasi\\v_beranda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 5 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(262): view('v_template_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 16:28:40 --> Undefined variable: lokasi
+in APPPATH\Views\lokasi\v_beranda.php on line 50.
+ 1 APPPATH\Views\lokasi\v_beranda.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: lokasi', 'APPPATH\\Views\\lokasi\\v_beranda.php', 50, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lokasi\\v_beranda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 5 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(262): view('v_template_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 16:28:42 --> Undefined variable: lokasi
+in APPPATH\Views\lokasi\v_beranda.php on line 50.
+ 1 APPPATH\Views\lokasi\v_beranda.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: lokasi', 'APPPATH\\Views\\lokasi\\v_beranda.php', 50, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lokasi\\v_beranda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 5 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(262): view('v_template_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 16:28:54 --> Undefined variable: berita
+in APPPATH\Views\lokasi\v_beranda.php on line 50.
+ 1 APPPATH\Views\lokasi\v_beranda.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: berita', 'APPPATH\\Views\\lokasi\\v_beranda.php', 50, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lokasi\\v_beranda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 5 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(262): view('v_template_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 16:28:56 --> Undefined variable: berita
+in APPPATH\Views\lokasi\v_beranda.php on line 50.
+ 1 APPPATH\Views\lokasi\v_beranda.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: berita', 'APPPATH\\Views\\lokasi\\v_beranda.php', 50, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lokasi\\v_beranda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 5 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(262): view('v_template_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 16:28:58 --> Undefined variable: berita
+in APPPATH\Views\lokasi\v_beranda.php on line 50.
+ 1 APPPATH\Views\lokasi\v_beranda.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: berita', 'APPPATH\\Views\\lokasi\\v_beranda.php', 50, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lokasi\\v_beranda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 5 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(262): view('v_template_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 16:28:59 --> Undefined variable: berita
+in APPPATH\Views\lokasi\v_beranda.php on line 50.
+ 1 APPPATH\Views\lokasi\v_beranda.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: berita', 'APPPATH\\Views\\lokasi\\v_beranda.php', 50, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lokasi\\v_beranda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 5 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(262): view('v_template_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-11 16:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 16:30:01 --> Undefined variable: berita
+in APPPATH\Views\lokasi\v_beranda.php on line 50.
+ 1 APPPATH\Views\lokasi\v_beranda.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: berita', 'APPPATH\\Views\\lokasi\\v_beranda.php', 50, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lokasi\\v_beranda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 5 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(262): view('v_template_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 16:32:20 --> Undefined property: App\Controllers\Lokasi::$ModelBerita
+in APPPATH\Controllers\Lokasi.php on line 263.
+ 1 APPPATH\Controllers\Lokasi.php(263): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Lokasi::$ModelBerita', 'APPPATH\\Controllers\\Lokasi.php', 263, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 16:33:17 --> Undefined property: App\Controllers\Lokasi::$ModelBerita
+in APPPATH\Controllers\Lokasi.php on line 265.
+ 1 APPPATH\Controllers\Lokasi.php(265): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Lokasi::$ModelBerita', 'APPPATH\\Controllers\\Lokasi.php', 265, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 16:33:18 --> Undefined property: App\Controllers\Lokasi::$ModelBerita
+in APPPATH\Controllers\Lokasi.php on line 265.
+ 1 APPPATH\Controllers\Lokasi.php(265): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Lokasi::$ModelBerita', 'APPPATH\\Controllers\\Lokasi.php', 265, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 16:34:35 --> syntax error, unexpected ']'
+in APPPATH\Controllers\Lokasi.php on line 262.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('Lokasi/beranda')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('Lokasi/beranda')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('Lokasi/beranda')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 16:34:56 --> Undefined variable: berita
+in APPPATH\Views\lokasi\v_beranda.php on line 50.
+ 1 APPPATH\Views\lokasi\v_beranda.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: berita', 'APPPATH\\Views\\lokasi\\v_beranda.php', 50, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lokasi\\v_beranda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 5 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(263): view('v_template_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-11 16:50:07 --> [DEPRECATED] Array and string offset access syntax with curly braces is deprecated in APPPATH\Views\lokasi\v_beranda.php on line 66.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 4 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 8 APPPATH\Controllers\Lokasi.php(263): view('v_template_front_end', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-11 16:50:32 --> [DEPRECATED] Array and string offset access syntax with curly braces is deprecated in APPPATH\Views\lokasi\v_beranda.php on line 66.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 4 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 8 APPPATH\Controllers\Lokasi.php(263): view('v_template_front_end', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-11 16:50:33 --> [DEPRECATED] Array and string offset access syntax with curly braces is deprecated in APPPATH\Views\lokasi\v_beranda.php on line 66.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 4 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 8 APPPATH\Controllers\Lokasi.php(263): view('v_template_front_end', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-11 16:50:39 --> [DEPRECATED] Array and string offset access syntax with curly braces is deprecated in APPPATH\Views\lokasi\v_beranda.php on line 66.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 4 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 8 APPPATH\Controllers\Lokasi.php(263): view('v_template_front_end', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-11 16:50:40 --> [DEPRECATED] Array and string offset access syntax with curly braces is deprecated in APPPATH\Views\lokasi\v_beranda.php on line 66.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 4 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 8 APPPATH\Controllers\Lokasi.php(263): view('v_template_front_end', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-11 16:50:41 --> [DEPRECATED] Array and string offset access syntax with curly braces is deprecated in APPPATH\Views\lokasi\v_beranda.php on line 66.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 4 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 8 APPPATH\Controllers\Lokasi.php(263): view('v_template_front_end', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-11 16:51:05 --> [DEPRECATED] Array and string offset access syntax with curly braces is deprecated in APPPATH\Views\lokasi\v_beranda.php on line 66.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 4 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 8 APPPATH\Controllers\Lokasi.php(263): view('v_template_front_end', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-11 16:52:36 --> [DEPRECATED] Array and string offset access syntax with curly braces is deprecated in APPPATH\Views\lokasi\v_beranda.php on line 65.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 4 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 8 APPPATH\Controllers\Lokasi.php(263): view('v_template_front_end', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-11 16:52:36 --> [DEPRECATED] Array and string offset access syntax with curly braces is deprecated in APPPATH\Views\lokasi\v_beranda.php on line 67.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 4 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 8 APPPATH\Controllers\Lokasi.php(263): view('v_template_front_end', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 16:52:36 --> Undefined variable: num_char
+in APPPATH\Views\lokasi\v_beranda.php on line 65.
+ 1 APPPATH\Views\lokasi\v_beranda.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: num_char', 'APPPATH\\Views\\lokasi\\v_beranda.php', 65, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lokasi\\v_beranda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 5 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(263): view('v_template_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-11 16:53:01 --> [DEPRECATED] Array and string offset access syntax with curly braces is deprecated in APPPATH\Views\lokasi\v_beranda.php on line 66.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 4 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 8 APPPATH\Controllers\Lokasi.php(263): view('v_template_front_end', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-11 16:53:01 --> [DEPRECATED] Array and string offset access syntax with curly braces is deprecated in APPPATH\Views\lokasi\v_beranda.php on line 68.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 4 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 8 APPPATH\Controllers\Lokasi.php(263): view('v_template_front_end', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-11 16:57:03 --> [DEPRECATED] Array and string offset access syntax with curly braces is deprecated in APPPATH\Views\lokasi\v_beranda.php on line 66.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 4 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 8 APPPATH\Controllers\Lokasi.php(263): view('v_template_front_end', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-11 16:57:03 --> [DEPRECATED] Array and string offset access syntax with curly braces is deprecated in APPPATH\Views\lokasi\v_beranda.php on line 68.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 4 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 8 APPPATH\Controllers\Lokasi.php(263): view('v_template_front_end', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-11 16:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 17:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 17:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 17:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 17:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 17:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 17:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 17:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 17:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 17:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-11 17:57:27 --> [DEPRECATED] Array and string offset access syntax with curly braces is deprecated in APPPATH\Views\lokasi\v_beranda.php on line 66.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 4 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 8 APPPATH\Controllers\Lokasi.php(263): view('v_template_front_end', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-11 17:57:27 --> [DEPRECATED] Array and string offset access syntax with curly braces is deprecated in APPPATH\Views\lokasi\v_beranda.php on line 68.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 4 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 8 APPPATH\Controllers\Lokasi.php(263): view('v_template_front_end', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-11 18:01:35 --> [DEPRECATED] Array and string offset access syntax with curly braces is deprecated in APPPATH\Views\lokasi\v_beranda.php on line 66.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 4 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 8 APPPATH\Controllers\Lokasi.php(263): view('v_template_front_end', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-11 18:01:35 --> [DEPRECATED] Array and string offset access syntax with curly braces is deprecated in APPPATH\Views\lokasi\v_beranda.php on line 68.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 4 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 8 APPPATH\Controllers\Lokasi.php(263): view('v_template_front_end', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-11 18:01:40 --> [DEPRECATED] Array and string offset access syntax with curly braces is deprecated in APPPATH\Views\lokasi\v_beranda.php on line 66.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 4 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 8 APPPATH\Controllers\Lokasi.php(263): view('v_template_front_end', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-11 18:01:40 --> [DEPRECATED] Array and string offset access syntax with curly braces is deprecated in APPPATH\Views\lokasi\v_beranda.php on line 68.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 4 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 8 APPPATH\Controllers\Lokasi.php(263): view('v_template_front_end', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-11 18:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 18:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 18:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 18:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-11 18:03:28 --> [DEPRECATED] Array and string offset access syntax with curly braces is deprecated in APPPATH\Views\lokasi\v_beranda.php on line 66.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 4 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 8 APPPATH\Controllers\Lokasi.php(263): view('v_template_front_end', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-11 18:03:28 --> [DEPRECATED] Array and string offset access syntax with curly braces is deprecated in APPPATH\Views\lokasi\v_beranda.php on line 68.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 4 APPPATH\Views\v_template_front_end.php(128): view('lokasi/v_beranda')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 8 APPPATH\Controllers\Lokasi.php(263): view('v_template_front_end', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 18:03:52 --> Trying to access array offset on value of type null
+in APPPATH\Views\lokasi\v_rute_back.php on line 111.
+ 1 APPPATH\Views\lokasi\v_rute_back.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\lokasi\\v_rute_back.php', 111, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lokasi\\v_rute_back.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Lokasi/v_rute_back', [], true)
+ 5 APPPATH\Views\v_template_front_end.php(128): view('Lokasi/v_rute_back')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(310): view('v_template_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->ruteBack('js', 'sb-admin-2.min.js')
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-11 18:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 18:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 18:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 18:19:07 --> Undefined variable: profil
+in APPPATH\Views\berita\v_data_berita.php on line 21.
+ 1 APPPATH\Views\berita\v_data_berita.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: profil', 'APPPATH\\Views\\berita\\v_data_berita.php', 21, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\berita\\v_data_berita.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('berita/v_data_berita', [], true)
+ 5 APPPATH\Views\v_template.php(179): view('berita/v_data_berita')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Berita.php(21): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Berita->dataBerita()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-11 19:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 19:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 19:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 19:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 19:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 19:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 19:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 19:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 19:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 19:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 19:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 19:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 19:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 19:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 19:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 19:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 19:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 19:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 19:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 19:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 19:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 19:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 19:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 23:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 23:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 23:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 23:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 23:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 23:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 23:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 23:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 23:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 23:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 23:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

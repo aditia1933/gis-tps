@@ -1,0 +1,40 @@
+INFO - 2023-06-27 04:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 04:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 04:32:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 04:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 04:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 04:53:49 --> Too few arguments to function App\Controllers\Auth::editProfil(), 0 passed in C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Auth.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->editProfil()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 04:57:50 --> Too few arguments to function App\Controllers\Auth::editProfil(), 0 passed in C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Auth.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->editProfil()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 04:57:51 --> Too few arguments to function App\Controllers\Auth::editProfil(), 0 passed in C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Auth.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->editProfil()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 04:57:53 --> Too few arguments to function App\Controllers\Auth::editProfil(), 0 passed in C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Auth.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->editProfil()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 04:58:39 --> Undefined variable: id_adm
+in APPPATH\Controllers\Auth.php on line 93.
+ 1 APPPATH\Controllers\Auth.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_adm', 'APPPATH\\Controllers\\Auth.php', 93, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->editProfil()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-27 05:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 05:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 05:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 05:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,312 @@
+INFO - 2023-05-30 00:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 00:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 00:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 00:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 00:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 00:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 00:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 00:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 00:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 00:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 00:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 00:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 00:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 01:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 01:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 01:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 01:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 01:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 01:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 01:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 01:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 01:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 01:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 01:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 01:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 01:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 03:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 03:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 03:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 03:07:46 --> Undefined property: App\Controllers\Lokasi::$ModelLokasi
+in APPPATH\Controllers\Lokasi.php on line 89.
+ 1 APPPATH\Controllers\Lokasi.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Lokasi::$ModelLokasi', 'APPPATH\\Controllers\\Lokasi.php', 89, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->insertData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-30 03:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 03:23:40 --> Undefined property: App\Controllers\Lokasi::$ModelLokasi
+in APPPATH\Controllers\Lokasi.php on line 89.
+ 1 APPPATH\Controllers\Lokasi.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Lokasi::$ModelLokasi', 'APPPATH\\Controllers\\Lokasi.php', 89, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->insertData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-30 03:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 03:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 03:24:21 --> Undefined property: App\Controllers\Lokasi::$ModelLokasi
+in APPPATH\Controllers\Lokasi.php on line 89.
+ 1 APPPATH\Controllers\Lokasi.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Lokasi::$ModelLokasi', 'APPPATH\\Controllers\\Lokasi.php', 89, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->insertData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-30 03:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 03:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 03:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 03:28:06 --> Undefined property: App\Controllers\Lokasi::$ModelLokasi
+in APPPATH\Controllers\Lokasi.php on line 89.
+ 1 APPPATH\Controllers\Lokasi.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Lokasi::$ModelLokasi', 'APPPATH\\Controllers\\Lokasi.php', 89, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->insertData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-30 03:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 03:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-30 03:49:10 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\belajar-gis\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\belajar-gis\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', '', '', 'webgis', 3306, '', 0)
+#1 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\belajar-gis\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\belajar-gis\app\Models\ModelLokasi.php(11): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\belajar-gis\app\Controllers\Lokasi.php(89): App\Models\ModelLokasi->insertData(Array)
+#6 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(934): App\Controllers\Lokasi->insertData()
+#7 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#8 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\belajar-gis\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\belajar-gis\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\belajar-gis\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#3 C:\xampp\htdocs\belajar-gis\app\Models\ModelLokasi.php(11): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\htdocs\belajar-gis\app\Controllers\Lokasi.php(89): App\Models\ModelLokasi->insertData(Array)
+#5 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(934): App\Controllers\Lokasi->insertData()
+#6 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#7 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\belajar-gis\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-30 03:49:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_lokasi` (`nama_lokasi`, `alamat_lokasi`, `latitude`, `longitude`, `foto_lokasi`) VALUES (:nama_lokasi:, :alamat_lokasi:, :latitude:, :longitude:, :foto_lokasi:)', [...], false)
+ 3 APPPATH\Models\ModelLokasi.php(11): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Lokasi.php(89): App\Models\ModelLokasi->insertData([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->insertData()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 03:53:02 --> Undefined property: App\Controllers\Lokasi::$ModelLokasi
+in APPPATH\Controllers\Lokasi.php on line 89.
+ 1 APPPATH\Controllers\Lokasi.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Lokasi::$ModelLokasi', 'APPPATH\\Controllers\\Lokasi.php', 89, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->insertData()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-30 04:19:57 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\belajar-gis\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\belajar-gis\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', '', '', 'webgis', 3306, '', 0)
+#1 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\belajar-gis\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\belajar-gis\app\Models\ModelLokasi.php(11): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\belajar-gis\app\Controllers\Lokasi.php(89): App\Models\ModelLokasi->insertData(Array)
+#6 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(934): App\Controllers\Lokasi->insertData()
+#7 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#8 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\belajar-gis\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\belajar-gis\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\belajar-gis\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#3 C:\xampp\htdocs\belajar-gis\app\Models\ModelLokasi.php(11): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\htdocs\belajar-gis\app\Controllers\Lokasi.php(89): App\Models\ModelLokasi->insertData(Array)
+#5 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(934): App\Controllers\Lokasi->insertData()
+#6 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#7 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\belajar-gis\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-30 04:19:57 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_lokasi` (`nama_lokasi`, `alamat_lokasi`, `latitude`, `longitude`, `foto_lokasi`) VALUES (:nama_lokasi:, :alamat_lokasi:, :latitude:, :longitude:, :foto_lokasi:)', [...], false)
+ 3 APPPATH\Models\ModelLokasi.php(11): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Lokasi.php(89): App\Models\ModelLokasi->insertData([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->insertData()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-30 04:29:46 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\belajar-gis\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\belajar-gis\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', '', '', 'webgis', 3306, '', 0)
+#1 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\belajar-gis\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\belajar-gis\app\Models\ModelLokasi.php(11): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\belajar-gis\app\Controllers\Lokasi.php(89): App\Models\ModelLokasi->insertData(Array)
+#6 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(934): App\Controllers\Lokasi->insertData()
+#7 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#8 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\belajar-gis\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\belajar-gis\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\belajar-gis\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#3 C:\xampp\htdocs\belajar-gis\app\Models\ModelLokasi.php(11): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\htdocs\belajar-gis\app\Controllers\Lokasi.php(89): App\Models\ModelLokasi->insertData(Array)
+#5 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(934): App\Controllers\Lokasi->insertData()
+#6 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#7 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\belajar-gis\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-30 04:29:46 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_lokasi` (`nama_lokasi`, `alamat_lokasi`, `latitude`, `longitude`, `foto_lokasi`) VALUES (:nama_lokasi:, :alamat_lokasi:, :latitude:, :longitude:, :foto_lokasi:)', [...], false)
+ 3 APPPATH\Models\ModelLokasi.php(11): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Lokasi.php(89): App\Models\ModelLokasi->insertData([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->insertData()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-30 05:03:05 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\belajar-gis\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\belajar-gis\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', '', '', 'webgis', 3306, '', 0)
+#1 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\belajar-gis\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\belajar-gis\app\Models\ModelLokasi.php(11): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\belajar-gis\app\Controllers\Lokasi.php(89): App\Models\ModelLokasi->insertData(Array)
+#6 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(934): App\Controllers\Lokasi->insertData()
+#7 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#8 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\belajar-gis\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\belajar-gis\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\belajar-gis\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#3 C:\xampp\htdocs\belajar-gis\app\Models\ModelLokasi.php(11): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\htdocs\belajar-gis\app\Controllers\Lokasi.php(89): App\Models\ModelLokasi->insertData(Array)
+#5 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(934): App\Controllers\Lokasi->insertData()
+#6 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#7 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\belajar-gis\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-30 05:03:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_lokasi` (`nama_lokasi`, `alamat_lokasi`, `latitude`, `longitude`, `foto_lokasi`) VALUES (:nama_lokasi:, :alamat_lokasi:, :latitude:, :longitude:, :foto_lokasi:)', [...], false)
+ 3 APPPATH\Models\ModelLokasi.php(11): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Lokasi.php(89): App\Models\ModelLokasi->insertData([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->insertData()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-30 05:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-30 05:03:13 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\belajar-gis\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\belajar-gis\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', '', '', 'webgis', 3306, '', 0)
+#1 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\belajar-gis\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\belajar-gis\app\Models\ModelLokasi.php(11): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\belajar-gis\app\Controllers\Lokasi.php(89): App\Models\ModelLokasi->insertData(Array)
+#6 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(934): App\Controllers\Lokasi->insertData()
+#7 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#8 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\belajar-gis\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\belajar-gis\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\belajar-gis\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#3 C:\xampp\htdocs\belajar-gis\app\Models\ModelLokasi.php(11): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\htdocs\belajar-gis\app\Controllers\Lokasi.php(89): App\Models\ModelLokasi->insertData(Array)
+#5 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(934): App\Controllers\Lokasi->insertData()
+#6 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#7 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\belajar-gis\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-30 05:03:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_lokasi` (`nama_lokasi`, `alamat_lokasi`, `latitude`, `longitude`, `foto_lokasi`) VALUES (:nama_lokasi:, :alamat_lokasi:, :latitude:, :longitude:, :foto_lokasi:)', [...], false)
+ 3 APPPATH\Models\ModelLokasi.php(11): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Lokasi.php(89): App\Models\ModelLokasi->insertData([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->insertData()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-30 05:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 05:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 05:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 05:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 05:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-30 05:03:59 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\belajar-gis\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\belajar-gis\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', '', '', 'webgis', 3306, '', 0)
+#1 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\belajar-gis\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\belajar-gis\app\Models\ModelLokasi.php(11): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\belajar-gis\app\Controllers\Lokasi.php(89): App\Models\ModelLokasi->insertData(Array)
+#6 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(934): App\Controllers\Lokasi->insertData()
+#7 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#8 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\belajar-gis\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\belajar-gis\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\belajar-gis\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\belajar-gis\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#3 C:\xampp\htdocs\belajar-gis\app\Models\ModelLokasi.php(11): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\htdocs\belajar-gis\app\Controllers\Lokasi.php(89): App\Models\ModelLokasi->insertData(Array)
+#5 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(934): App\Controllers\Lokasi->insertData()
+#6 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#7 C:\xampp\htdocs\belajar-gis\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\belajar-gis\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-30 05:03:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_lokasi` (`nama_lokasi`, `alamat_lokasi`, `latitude`, `longitude`, `foto_lokasi`) VALUES (:nama_lokasi:, :alamat_lokasi:, :latitude:, :longitude:, :foto_lokasi:)', [...], false)
+ 3 APPPATH\Models\ModelLokasi.php(11): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Lokasi.php(89): App\Models\ModelLokasi->insertData([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->insertData()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-30 05:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 05:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 05:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 05:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 05:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 15:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

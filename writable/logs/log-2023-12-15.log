@@ -1,0 +1,36 @@
+CRITICAL - 2023-12-15 15:50:05 --> mysqli_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+
+in APPPATH\Views\lokasi\v_beranda.php on line 48.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+', 'APPPATH\\Views\\lokasi\\v_beranda.php', 48, [...])
+ 2 APPPATH\Views\lokasi\v_beranda.php(48): mysqli_connect('localhost', 'root', 'ROOTPATH\\public', 'webgis')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lokasi\\v_beranda.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 6 APPPATH\Views\v_template_front_end.php(139): view('lokasi/v_beranda')
+ 7 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+10 APPPATH\Controllers\Lokasi.php(263): view('v_template_front_end', [...])
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 15:50:06 --> mysqli_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+
+in APPPATH\Views\lokasi\v_beranda.php on line 48.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+', 'APPPATH\\Views\\lokasi\\v_beranda.php', 48, [...])
+ 2 APPPATH\Views\lokasi\v_beranda.php(48): mysqli_connect('localhost', 'root', 'ROOTPATH\\public', 'webgis')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lokasi\\v_beranda.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_beranda', [], true)
+ 6 APPPATH\Views\v_template_front_end.php(139): view('lokasi/v_beranda')
+ 7 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+10 APPPATH\Controllers\Lokasi.php(263): view('v_template_front_end', [...])
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->beranda()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

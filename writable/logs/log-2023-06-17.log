@@ -1,0 +1,12 @@
+INFO - 2023-06-17 00:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-17 01:10:49 --> Undefined variable: page
+in APPPATH\Views\v_template_front_end.php on line 109.
+ 1 APPPATH\Views\v_template_front_end.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: page', 'APPPATH\\Views\\v_template_front_end.php', 109, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_front_end.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 5 APPPATH\Controllers\Lokasi.php(242): view('v_template_front_end', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->frontEnd()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
